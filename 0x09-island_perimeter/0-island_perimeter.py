@@ -35,5 +35,4 @@ def island_perimeter(grid):
             # do a dfs for only land
             if grid[i][j]:
                 return dfs(i, j)
-    return 0
- 
+    return 0  
